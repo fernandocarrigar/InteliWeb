@@ -1,0 +1,103 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+nav a.btn:hover {
+    background-color:#5796cc;
+    color:white;
+    border: none;
+}
+
+nav a.btn {
+    border:none;
+}
+
+img#img-logo{
+    object-fit:contain;
+    width:200px
+}
+
+img.slide{
+    display:block;
+    max-height:300px;
+    min-height:300px;
+    object-fit:cover;
+    overflow:hidden !important;
+}
+
+img.img-collap {
+    border-radius:5px;
+    object-fit:cover;
+    overflow:hidden;
+    width:auto;
+    height:200px;
+}
+
+div.div-ttl {
+    text-align: center;
+}
+
+div.carousel {
+    box-shadow: 0 7px 10px #808080;
+    text-shadow: 1px 1px 4px white;
+}
+
+div.carousel h3, div.carousel p {
+    color:black;
+}
+
+div#div-bg-color-contain {
+    border: none;
+    margin-top: 2rem;
+}
+
+/*div#div-p-row {
+    background-color: white;
+    margin-top: 1rem;
+    margin-left:6rem;
+    margin-right:6rem;
+    opacity: 0;
+    transition:1s;
+}
+*/
+/*div.deslizarDiv {
+    animation: deslizarDiv 0.5s;
+}
+*/
+/*@keyframes deslizarDiv {
+    0%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateZ(0)
+    }
+}
+*/
+/*div#div-p-row:hover {
+    opacity: 1;
+    box-shadow: 1px 1px 30px #808080;
+    transition: opacity 0.5s;
+}
+*/
+a.a-collap {
+    text-decoration:none;
+}
+
+div.col-6 {
+    margin-top:1rem;
+}
