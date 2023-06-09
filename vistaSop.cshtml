@@ -19,13 +19,13 @@
                 <label>
                     <h5>Seleccione el tipo de problema:</h5>
                 </label>
-                <select id="selectProblem" name="selectProblem" class="form-select" data-bs-toggle="collapse" data-bs-target="#select">
-                    <option value="" selected disable hidden>Seleccione una opcion</option>
-                    <option value="#select">Caida de server</option>
-                    <option>Fallo de base de datos</option>
-                    <option>Nomina incorrecta</option>
-                    <option>Fallo de sistema</option>
-                    <option>Software desactualizado</option>
+                <select id="selectProblem" name="selectProblem" class="form-select" data-bs-toggle="collapse" data-bs-target="#select" onclick="myFunction()">
+                    <option value="#" selected disable hidden>Seleccione una opcion</option>
+                    <option value="" >Caida de server</option>
+                    <option value="">Fallo de base de datos</option>
+                    <option value="">Nomina incorrecta</option>
+                    <option value="">Fallo de sistema</option>
+                    <option value="">Software desactualizado</option>
                 </select>
             </div>
         </div>
@@ -35,6 +35,13 @@
                 <p>Coloque sus comentatios al respecto al problema que presenta:</p>
           <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
         </div>
+        
+        <div id="name" class="collapse hide show mb-3 mt-3">
+          <label for="comment">prueba:</label>
+                <p>Coloque sus comentatios al respecto al problema que presenta:</p>
+          <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+        </div>
+
     </form>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Enviar</button>
 </div>
@@ -70,4 +77,11 @@
 </div>
 
 </body>
+
+<script>
+function myFunction() {
+  document.getElementById("selectProblem").setAttribute("data-bs-target", "name"); 
+}
+</script>
+
 </html>
