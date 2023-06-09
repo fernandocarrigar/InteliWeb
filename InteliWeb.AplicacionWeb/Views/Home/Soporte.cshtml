@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewData["Title"] = "Soporte";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Soporte</h1>
+<div class="container">
+    <form action="#" area-controller="" area-action="">
+    <h1>Problemas</h1>
+        <div class="container">
+            <div class="col-5">
+                <label>
+                    <h5>Seleccione el tipo de problema:</h5>
+                </label>
+                <select id="selectProblem" name="selectProblem" class="form-select" data-bs-toggle="collapse" data-bs-target="#select" onclick="myFunction()">
+                    <option value="#" selected disable hidden>Seleccione una opcion</option>
+                    <option value="" >Caida de server</option>
+                    <option value="">Fallo de base de datos</option>
+                    <option value="">Nomina incorrecta</option>
+                    <option value="">Fallo de sistema</option>
+                    <option value="">Software desactualizado</option>
+                </select>
+            </div>
+        </div>
+    
+        <div id="select" class="collapse hide show mb-3 mt-3">
+          <label for="comment">Detalles:</label>
+                <p>Coloque sus comentatios al respecto al problema que presenta:</p>
+          <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+        </div>
+        
+        <div id="name" class="collapse hide show mb-3 mt-3">
+          <label for="comment">prueba:</label>
+                <p>Coloque sus comentatios al respecto al problema que presenta:</p>
+          <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+        </div>
+
+    </form>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Enviar</button>
+</div>
+
+
+<div id="myModal" class="container modal">
+    <form area-controller="" area-action="">
+      <div class="modal-dialog mb-3 mt-3">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h2>Inicie sesion</h2>
+              </div>
+              <div class="container">
+                  <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Correo:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Introduzca correo" name="email">
+    
+                    <label for="pwd" class="form-label">Contraseña:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Introduzca contraseña" name="pswd">
+                  </div>
+                  <div class="form-check mb-3">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Recordarme
+                    </label>
+                  </div>
+              </div>
+              <div class="modal-footer">
+              <button type="submit" class="btn btn-primary">Ingresar</button>
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+      </form>
+</div>
