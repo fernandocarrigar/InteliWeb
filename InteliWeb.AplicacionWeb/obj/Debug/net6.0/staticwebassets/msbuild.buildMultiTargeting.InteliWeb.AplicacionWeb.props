@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\InteliWeb.AplicacionWeb.props" />
+</Project>
