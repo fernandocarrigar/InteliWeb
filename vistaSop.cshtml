@@ -13,12 +13,15 @@
 
 <div class="container">
     <form action="#" area-controller="" area-action="">
-    <h2>Problemas</h2>
+    <h1>Problemas</h1>
         <div class="container">
             <div class="col-5">
-                <select class="form-select">
+                <label>
+                    <h5>Seleccione el tipo de problema:</h5>
+                </label>
+                <select id="selectProblem" name="selectProblem" class="form-select" data-bs-toggle="collapse" data-bs-target="#select">
                     <option value="" selected disable hidden>Seleccione una opcion</option>
-                    <option>Caida de server</option>
+                    <option value="#select">Caida de server</option>
                     <option>Fallo de base de datos</option>
                     <option>Nomina incorrecta</option>
                     <option>Fallo de sistema</option>
@@ -27,9 +30,9 @@
             </div>
         </div>
     
-      <p>Coloque sus comentatios al respecto al problema que presenta:</p>
-        <div class="mb-3 mt-3">
+        <div id="select" class="collapse hide show mb-3 mt-3">
           <label for="comment">Detalles:</label>
+                <p>Coloque sus comentatios al respecto al problema que presenta:</p>
           <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
         </div>
     </form>
