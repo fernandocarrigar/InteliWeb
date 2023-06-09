@@ -4,40 +4,66 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Soporte</h1>
+<h1 class="text-center">Soporte</h1>
+
 <div class="container">
+    <div class="">
+        <span class="">En que podemos ayudarle?</span>
+    </div>
+</div>
+
+<div id="acordion" class="container spcDiv">
     <form action="#" area-controller="" area-action="">
-    <h1>Problemas</h1>
-        <div class="container">
+    <h3>Problemas</h3>
+        <div class="mt-2">
             <div class="col-5">
                 <label>
-                    <h5>Seleccione el tipo de problema:</h5>
+                    <span>Seleccione el tipo de problema:</span>
                 </label>
-                <select id="selectProblem" name="selectProblem" class="form-select" data-bs-toggle="collapse" data-bs-target="#select" onclick="myFunction()">
+                <select id="selectProblem" name="selectProblem" class="form-select" data-bs-toggle="collapse" onchange="myFunction(this.value);">
                     <option value="#" selected disable hidden>Seleccione una opcion</option>
-                    <option value="" >Caida de server</option>
-                    <option value="">Fallo de base de datos</option>
-                    <option value="">Nomina incorrecta</option>
-                    <option value="">Fallo de sistema</option>
-                    <option value="">Software desactualizado</option>
+                    <option value="Caida" >Caida de server</option>
+                    <option value="FalloDB">Fallo de base de datos</option>
+                    <option value="Nomina">Nomina incorrecta</option>
+                    <option value="FalloSys">Fallo de sistema</option>
+                    <option value="SoftNU">Software desactualizado</option>
                 </select>
             </div>
         </div>
     
-        <div id="select" class="collapse hide show mb-3 mt-3">
+        <div id="FalloSys" class="collapse hide mb-3 mt-3" data-bs-parent="#acordion">
           <label for="comment">Detalles:</label>
                 <p>Coloque sus comentatios al respecto al problema que presenta:</p>
-          <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
-        </div>
-        
-        <div id="name" class="collapse hide show mb-3 mt-3">
-          <label for="comment">prueba:</label>
-                <p>Coloque sus comentatios al respecto al problema que presenta:</p>
-          <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+          <textarea class="form-control" rows="5" id="commentFalloSys" name="text"></textarea>
         </div>
 
+        <div id="Caida" class="collapse hide mb-3 mt-3" data-bs-parent="#acordion">
+            <label for="comment">Detalles:</label>
+            <p>Coloque sus comentatios al respecto al problema que presenta:</p>
+            <textarea class="form-control" rows="5" id="commentCaida" name="text"></textarea>
+        </div>
+
+        <div id="FalloDB" class="collapse hide mb-3 mt-3" data-bs-parent="#acordion">
+            <label for="comment">Detalles:</label>
+            <p>Coloque sus comentatios al respecto al problema que presenta:</p>
+            <textarea class="form-control" rows="5" id="commentFalloDB" name="text"></textarea>
+        </div>
+
+        <div id="Nomina" class="collapse hide mb-3 mt-3" data-bs-parent="#acordion">
+            <label for="comment">Detalles:</label>
+            <p>Coloque sus comentatios al respecto al problema que presenta:</p>
+            <textarea class="form-control" rows="5" id="commentNomina" name="text"></textarea>
+        </div>
+
+        <div id="SoftNU" class="collapse hide mb-3 mt-3" data-bs-parent="#acordion">
+            <label for="comment">Detalles:</label>
+            <p>Coloque sus comentatios al respecto al problema que presenta:</p>
+            <textarea class="form-control" rows="5" id="commentSoftNU" name="text"></textarea>
+        </div>
+
+
     </form>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Enviar</button>
+    <button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#myModal">Enviar</button>
 </div>
 
 
@@ -70,3 +96,13 @@
       </div>
       </form>
 </div>
+
+<script>
+    function myFunction(value) {
+        document.getElementById(value).setAttribute("class", "show");
+    }
+
+    function removeCollapse(value){
+        document.getElementById(value).removeAttribute("class", "show");
+    }
+</script>
