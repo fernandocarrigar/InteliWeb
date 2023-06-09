@@ -1,0 +1,14 @@
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\bin\Debug\net6.0\InteliWeb.Entity.deps.json
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\bin\Debug\net6.0\InteliWeb.Entity.runtimeconfig.json
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\bin\Debug\net6.0\InteliWeb.Entity.dll
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\bin\Debug\net6.0\InteliWeb.Entity.pdb
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\obj\Debug\net6.0\InteliWeb.Entity.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\obj\Debug\net6.0\InteliWeb.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\obj\Debug\net6.0\InteliWeb.Entity.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\obj\Debug\net6.0\InteliWeb.Entity.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\obj\Debug\net6.0\InteliWeb.Entity.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\obj\Debug\net6.0\InteliWeb.Entity.dll
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\obj\Debug\net6.0\refint\InteliWeb.Entity.dll
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\obj\Debug\net6.0\InteliWeb.Entity.pdb
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\obj\Debug\net6.0\InteliWeb.Entity.genruntimeconfig.cache
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.Entity\obj\Debug\net6.0\ref\InteliWeb.Entity.dll

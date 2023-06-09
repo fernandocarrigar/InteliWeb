@@ -1,0 +1,15 @@
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\bin\Debug\net6.0\InteliWeb.DAL.deps.json
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\bin\Debug\net6.0\InteliWeb.DAL.dll
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\bin\Debug\net6.0\InteliWeb.DAL.pdb
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\obj\Debug\net6.0\InteliWeb.DAL.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\obj\Debug\net6.0\InteliWeb.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\obj\Debug\net6.0\InteliWeb.DAL.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\obj\Debug\net6.0\InteliWeb.DAL.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\obj\Debug\net6.0\InteliWeb.DAL.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\obj\Debug\net6.0\InteliWeb.DAL.dll
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\obj\Debug\net6.0\refint\InteliWeb.DAL.dll
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\obj\Debug\net6.0\InteliWeb.DAL.pdb
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\obj\Debug\net6.0\ref\InteliWeb.DAL.dll
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\bin\Debug\net6.0\InteliWeb.Entity.dll
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\bin\Debug\net6.0\InteliWeb.Entity.pdb
+C:\Users\USUARIO\source\repos\InteliWeb\InteliWeb.DAL\obj\Debug\net6.0\InteliWeb.DAL.csproj.CopyComplete
