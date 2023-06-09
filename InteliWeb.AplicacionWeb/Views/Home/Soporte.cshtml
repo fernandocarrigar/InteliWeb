@@ -31,11 +31,8 @@
             </div>
         </div>
     
-        <div id="FalloSys" class="collapse hide mb-3 mt-3" data-bs-parent="#acordion">
-          <label for="comment">Detalles:</label>
-                <p>Coloque sus comentatios al respecto al problema que presenta:</p>
-          <textarea class="form-control" rows="5" id="commentFalloSys" name="text"></textarea>
-        </div>
+        <script>
+        </script>
 
         <div id="Caida" class="collapse hide mb-3 mt-3" data-bs-parent="#acordion">
             <label for="comment">Detalles:</label>
@@ -98,6 +95,16 @@
 </div>
 
 <script>
+    let slct = document.getElementById("selectProblem").value;
+
+    if (slct === "FalloSys") {
+        window.document.write('<div id="FalloSys" class="collapse hide mb-3 mt-3" data-bs-parent="#acordion"><label for= "comment" > Detalles: </label>');
+        window.document.write('<p>Coloque sus comentatios al respecto al problema que presenta: </p><textarea class="form-control" rows="5" id="commentFalloSys" name="text"></textarea></div>');
+    }else if(slct === "Nomina"){
+        window.document.write('<div id="FalloSys" class="collapse hide mb-3 mt-3" data-bs-parent="#acordion"><label for= "comment" > Detalles: </label>');
+        window.document.write('<p>Coloque sus comentatios al respecto al problema que presenta: </p><textarea class="form-control" rows="5" id="commentFalloSys" name="text"></textarea></div>');
+    }
+
     function myFunction(value) {
         document.getElementById(value).setAttribute("class", "show");
     }
