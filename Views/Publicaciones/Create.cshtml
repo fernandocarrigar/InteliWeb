@@ -1,0 +1,70 @@
+﻿@using InteliWeb2.Models.ViewModels
+@model PublicacionesViewModel
+
+<a asp-controller="Sesion" asp-action="Close" class="btn btn-flotante btn-sm bg-success">Cerrar Sesion</a>
+
+<div class="form">
+    <form asp-action="Create" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">
+        <div class="modal-dialog mb-3 mt-3">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Nueva Publicación</h2>
+                </div>
+                <div class="container table-responsive">
+                    <div asp-asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <select asp-for="idArch" class="form-control" asp-items="ViewBag.Archivos"></select>
+                        <label asp-for="idArch" class="control-label"></label>
+                        <span asp-validation-for="idArch" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <textarea asp-for="TxtPub" class="form-control" placeholder="Inserte el texto del Post"></textarea>
+                        <label asp-for="TxtPub" class="control-label"></label>
+                        <span asp-validation-for="TxtPub" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <select asp-for="idServ" class="form-control" asp-items="ViewBag.Servicio"></select>
+                        <label asp-for="idServ" class="control-label"></label>
+                        <span asp-validation-for="idServ" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <select asp-for="idTpPub" class="form-control" asp-items="ViewBag.TipoPub"></select>
+                        <label asp-for="idTpPub" class="control-label"></label>
+                        <span asp-validation-for="idTpPub" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <select asp-for="idSecPub" class="form-control" asp-items="ViewBag.Seccion"></select>
+                        <label asp-for="idSecPub" class="control-label"></label>
+                        <span asp-validation-for="idSecPub" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <select asp-for="idUser" class="form-control" asp-items="ViewBag.Usuario"></select>
+                        <label asp-for="idUser" class="control-label"></label>
+                        <span asp-validation-for="idUser" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="form-group modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Ingresar</button>
+                    <a type="button" class="btn btn-danger btn-sm" asp-controller="Contrataciones" asp-action="Index" asp-route-Id="@ViewContext.RouteData.Values["Id"]" asp-route-r="@ViewBag.r" asp-route-i="@ViewBag.i">Cancelar</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript">
+    window.history.forward();
+</script>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

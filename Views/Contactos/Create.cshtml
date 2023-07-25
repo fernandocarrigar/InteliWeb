@@ -1,0 +1,63 @@
+﻿@using InteliWeb2.Models.ViewModels
+@model ContactosViewModel
+
+<a asp-controller="Sesion" asp-action="Close" class="btn btn-flotante btn-sm bg-success">Cerrar Sesion</a>
+
+<div class="form">
+    <form asp-action="Create" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">
+        <div class="modal-dialog mb-3 mt-3">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Registrar Nuevo Contacto</h2>
+                </div>
+                <div class="container table-responsive">
+                    <div asp-asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <input asp-for="TelContact" class="form-control" />
+                        <label asp-for="TelContact" class="control-label"></label>
+                        <span asp-validation-for="TelContact" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <input asp-for="EmailContact" class="form-control" />
+                        <label asp-for="EmailContact" class="control-label"></label>
+                        <span asp-validation-for="EmailContact" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <input asp-for="UbiContact" class="form-control" />
+                        <label asp-for="UbiContact" class="control-label"></label>
+                        <span asp-validation-for="UbiContact" class="text-danger"></span>
+                    </div>
+                    @if(ViewBag.r == 0)
+                    {
+                        <div class="form-floating form-group mb-3 mt-3">
+                            <input asp-for="idUser" class="form-control" hidden />
+                        </div>
+                    }else if(ViewBag.r == 1 || ViewBag.r == 2)
+                    {
+                        <div class="form-floating form-group mb-3 mt-3">
+                            <select asp-for="idUser" class="form-control" asp-items="ViewBag.Usuarios"></select>
+                            <label asp-for="idUser" class="control-label"></label>
+                            <span asp-validation-for="idUser" class="text-danger"></span>
+                        </div>
+                    }
+                </div>
+                <div class="form-floating form-group modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Ingresar</button>
+                    <a type="button" class="btn btn-danger btn-sm" asp-controller="Contactos" asp-action="Index" asp-route-Id="@ViewContext.RouteData.Values["Id"]" asp-route-r="@ViewBag.r" asp-route-i="@ViewBag.i">Cancelar</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript">
+    window.history.forward();
+</script>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

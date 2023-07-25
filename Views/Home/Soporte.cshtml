@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewData["Title"] = "Soporte";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+<h1 class="text-center align-middle">Soporte</h1>
+
+<div class="container table-responsive">
+    <div class="">
+        <span class="">En que podemos ayudarle?</span>
+    </div>
+</div>
+
+<div id="acordion" class="container spcDiv">
+    <form method="post" area-controller="Home" area-action="Seleccionar">
+    <h3>Problemas</h3>
+        <div class="row mt-2">
+            <div class="col-xs-5">
+                <label>
+                    <span>Seleccione el tipo de problema:</span>
+                </label>
+                <select id="selectProblem" name="selectProblem" class="form-select" data-bs-toggle="collapse" required>
+                    <option value="" selected disable hidden>Seleccione una opcion</option>
+                    <option value="Caida" >Caida de server</option>
+                    <option value="FalloDB">Fallo de base de datos</option>
+                    <option value="Nomina">Nomina incorrecta</option>
+                    <option value="FalloSys">Fallo de sistema</option>
+                    <option value="SoftNU">Software desactualizado</option>
+                </select>
+            </div>
+            <div class="col-xs-4">
+                <button type="submit">Seleccionar</button>
+            </div>
+        </div>
+    </form>
+    <button type="button" class="btn btn-primary mt-2 btn-sm" data-bs-toggle="modal" data-bs-target="#myModal">Enviar</button>
+</div>
+
+
+<div id="myModal" class="container modal">
+    <form area-controller="" area-action="">
+      <div class="modal-dialog mb-3 mt-3">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h2>Inicie sesion</h2>
+              </div>
+              <div class="container table-responsive">
+                  <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Correo:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Introduzca correo" name="email">
+    
+                    <label for="pwd" class="form-label">Contraseña:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Introduzca contraseña" name="pswd">
+                  </div>
+                  <div class="form-check mb-3">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Recordarme
+                    </label>
+                  </div>
+              </div>
+              <div class="modal-footer">
+              <button type="submit" class="btn btn-primary btn-sm">Ingresar</button>
+                <button type="button" class="btn btn-danger btn-sm" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+      </form>
+</div>
+
+<script type="text/javascript">
+    window.history.forward();
+</script>
+
+                                @*
+                    switch ("Caida")
+                    {
+                        case "Caida":
+                            <div id="Caida" class="collapse show mb-3 mt-3">
+                                <label for="comment">Detalles:</label>
+                                <p>Coloque sus comentatios al respecto al problema que presenta:</p>
+                                <textarea class="form-control" rows="5" id="commentCaida" name="text"></textarea>
+                            </div>
+                            Console.WriteLine("Si funciona");
+                            break;
+                        case "FalloDB":
+                            <div id="FalloDB" class="collapse show mb-3 mt-3">
+                                <label for="comment">Detalles:</label>
+                                <p>Coloque sus comentatios al respecto al problema que presenta:</p>
+                                <textarea class="form-control" rows="5" id="commentFalloDB" name="text"></textarea>
+                            </div>
+                            break;
+                        case "Nomina":
+                            <div id="Nomina" class="collapse show mb-3 mt-3">
+                                <label for="comment">Detalles:</label>
+                                <p>Coloque sus comentatios al respecto al problema que presenta:</p>
+                                <textarea class="form-control" rows="5" id="commentNomina" name="text"></textarea>
+                            </div>
+                            break;
+                        case "SoftNU":
+                            <div id="SoftNU" class="collapse show mb-3 mt-3">
+                                <label for="comment">Detalles:</label>
+                                <p>Coloque sus comentatios al respecto al problema que presenta:</p>
+                                <textarea class="form-control" rows="5" id="commentSoftNU" name="text"></textarea>
+                            </div>
+                            break;
+                        default:
+                            <span class="text-center text-primary">Seleccione una opción : </span>
+                            Console.WriteLine("No contiene nada");
+                            break;
+                    }
+                *@

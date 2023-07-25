@@ -1,0 +1,121 @@
+﻿@using InteliWeb2.Models.ViewModels;
+@model List<Archivo>
+
+<a asp-controller="Sesion" asp-action="Close" class="btn btn-flotante btn-sm bg-success">Cerrar Sesion</a>
+
+<section style="background-color: #eee;">
+    <div class="container d-block div-ttl">
+        <h1 class="align-center">Archivos</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+                    <ol class="breadcrumb mb-0">
+                        @if ((ViewBag.r == 2) || (ViewBag.r == 1))
+                        {
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm dropdown-toggle" id="accionesDropdown" data-bs-toggle="dropdown">Usuarios</button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" asp-controller="Home" asp-action="Index" asp-route-i="@ViewBag.i">Home</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Usuario" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Usuarios</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Contactos" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Contactos</a></li>
+                                    <li><a class="dropdown-item" asp-controller="RolUsuarios" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Roles de usuario</a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm dropdown-toggle" id="accionesDropdown" data-bs-toggle="dropdown">Servicios</button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" asp-controller="Servicios" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Servicios</a></li>
+                                    <li><a class="dropdown-item" asp-controller="TipoServicios" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Tipo de servicios</a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm dropdown-toggle" id="accionesDropdown" data-bs-toggle="dropdown">Publicaciones y Archivos</button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" asp-controller="Archivo" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Todos los Archivos</a></li>
+                                    <li><a class="dropdown-item" asp-controller="TipoArchivos" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Tipo de archivos</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Publicaciones" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Todas las Publicaciones</a></li>
+                                    <li><a class="dropdown-item" asp-controller="SeccionPublicaciones" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Secciones de Publicaciones</a></li>
+                                    <li><a class="dropdown-item" asp-controller="TipoPublicaciones" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Tipos de Publicaciones</a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm dropdown-toggle" id="accionesDropdown" data-bs-toggle="dropdown">Contrataciones</button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" asp-controller="Contrataciones" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Todas las Contrataciones</a></li>
+                                    <li><a class="dropdown-item" asp-controller="EstadoContrataciones" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Estados de contratacion</a></li>
+                                </ul>
+                            </div>
+                            <li><a class="btn btn-sm" asp-controller="Sesion" asp-action="Index" asp-route-i="@ViewBag.i" asp-route-r="@ViewBag.r">Perfil</a></li>
+                        }
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container table-responsive">
+        <div class="row">
+            <div class="col-3 mb-3 mt-3">
+                <span><a type="button" class="btn btn-primary mt-2 btn-sm" asp-action="Create" asp-route-Id="@ViewContext.RouteData.Values["Id"]" asp-route-r="@ViewBag.r" asp-route-i="@ViewBag.i">Agregar Nuevo Archivo</a></span></p>
+            </div>
+            <form asp-action="Index" asp-route-r="@ViewBag.r" asp-route-i="@ViewBag.i">
+                <div class="col-3 input-group input-group-sm mb-3">
+                    <select name="user" class="form-group form-control form-select mb-3" asp-items="ViewBag.Usuario" aria-describedby="btn-fil">
+                        <option value="#" disabled selected hidden>Selecciona un usuario</option>
+                    </select>
+                    <select name="tparch" class="form-group form-control form-select mb-3" asp-items="ViewBag.TpArchivo" aria-describedby="btn-fil">
+                        <option value="#" disabled selected hidden>Selecciona un tipo de archivo</option>
+                    </select>
+                    <div class="input-group-append">
+                        <button id="btn-fil" type="submit" class="btn btn-outline-primary btn-sm">Filtrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container table-responsive">
+        <table class="table table-striped table-hover table-bordered table-sm">
+            <thead class="table-dark">
+                <tr>
+                    <th class="text text-center align-middle">Id</th>
+                    <th class="text text-center align-middle">Contenido</th>
+                    <th class="text text-center align-middle">Nombre</th>
+                    <th class="text text-center align-middle">Fecha de Subida</th>
+                    <th class="text text-center align-middle">Tipo de Archivo</th>
+                    <th class="text text-center align-middle">Usuario que subio</th>
+                    <th class="text text-center align-middle">MimeType</th>
+                    <th class="text text-center align-middle">Actualizar</th>
+                    <th class="text text-center align-middle">Eliminar</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var archivos in Model)
+                {
+                    <tr>
+                        <td class="text text-center align-middle">@Html.DisplayFor(a=>archivos.IdArchivo)</td>
+                        @{
+                            string type = archivos.MimeArchivo;
+                            string Base64 = Convert.ToBase64String(archivos.ContenidoArchivo);
+                            string URL = string.Format("data:{0};base64,{1}", type, Base64);
+                            <td class="text text-center align-middle"><iframe src="@URL" class="img-thumbnail" style="max-width:300px;max-height:200px;"></iframe></td>
+                        }
+                        <td class="text text-center align-middle">@Html.DisplayFor(a=>archivos.NombreArchivo)</td>
+                        <td class="text text-center align-middle">@Html.DisplayFor(a=>archivos.FechaSubido)</td>
+                        <td class="text text-center align-middle">@Html.DisplayFor(a=>archivos.IdTipoArchivoNavigation.TipoArchivo1)</td>
+                        <td class="text text-center align-middle">@Html.DisplayFor(a=>archivos.IdUsuarioNavigation.NombreUsuario)</td>
+                        <td class="text text-center align-middle">@Html.DisplayFor(a=>archivos.MimeArchivo)</td>
+                        <td class="text text-center align-middle"><a asp-action="Update" asp-route-r="@ViewBag.r" asp-route-i="@ViewBag.i" asp-route-id="@archivos.IdArchivo" type="button" class="btn btn-primary btn-sm">Actualizar</a></td>
+                        <td class="text text-center align-middle"><a asp-action="Delete" asp-route-r="@ViewBag.r" asp-route-i="@ViewBag.i" asp-route-id="@archivos.IdArchivo" type="button" class="btn btn-danger btn-sm">Eliminar</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<script type="text/javascript">
+    window.history.forward();
+</script>

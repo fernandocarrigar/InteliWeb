@@ -1,0 +1,57 @@
+﻿@using InteliWeb2.Models.ViewModels
+@model ReportesViewModel
+
+<a asp-controller="Sesion" asp-action="Close" class="btn btn-flotante btn-sm bg-success">Cerrar Sesion</a>
+
+<div class="form">
+    <form asp-action="Update" asp-route-r="@ViewBag.r" asp-route-i="@ViewBag.i">
+        <div class="modal-dialog mb-3 mt-3">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Actualizar Reporte</h2>
+                </div>
+                <div class="container table-responsive">
+                    <div asp-asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <input asp-for="IdReport" hidden/>
+                    </div>
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <textarea asp-for="DetReporte" class="form-control" placeholder="Inserte el Texto del Post"></textarea>
+                        <label asp-for="DetReporte" class="control-label"></label>
+                        <span asp-validation-for="DetReporte" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <select asp-for="TpReporte" class="form-control" asp-items="@ViewBag.TipoRepor"></select>
+                        <label asp-for="TpReporte" class="control-label"></label>
+                        <span asp-validation-for="TpReporte" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <input asp-for="FecReporte" value="@DateTime.Now" hidden />
+                    </div>
+
+                    <div class="form-floating form-group mb-3 mt-3">
+                        <select asp-for="idUser" class="form-control" asp-items="@ViewBag.Usuario"></select>
+                        <label asp-for="idUser" class="control-label"></label>
+                        <span asp-validation-for="idUser" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group modal-footer">
+                    <button type="submit" class="btn btn-primary btn-sm">Ingresar</button>
+                    <a type="button" class="btn btn-danger btn-sm" asp-controller="Reportes" asp-action="Index" asp-route-Id="@ViewContext.RouteData.Values["Id"]" asp-route-r="@ViewBag.r" asp-route-i="@ViewBag.i">Cancelar</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript">
+    window.history.forward();
+</script>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
