@@ -1,0 +1,445 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\InteliWeb2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\InteliWeb2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\img\\develop.jpg",
+      "PackagePath": "staticwebassets\\img\\develop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\img\\img-login.svg",
+      "PackagePath": "staticwebassets\\img\\img-login.svg"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\img\\servers.png",
+      "PackagePath": "staticwebassets\\img\\servers.png"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\img\\software.jpg",
+      "PackagePath": "staticwebassets\\img\\software.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\.babelrc",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\.babelrc"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\.editorconfig",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\.editorconfig"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\.gitattributes",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\.gitattributes"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\.gitignore",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\.travis.yml",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\.travis.yml"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\CONTRIBUTING.md",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\CONTRIBUTING.md"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\aos-master"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\README.md",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\demo\\async.html",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\demo\\async.html"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\demo\\css\\styles.css",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\demo\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\demo\\simple.html",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\demo\\simple.html"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\dist\\aos.css",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\dist\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\dist\\aos.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\dist\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\karma.conf.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\karma.conf.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\package.json",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\postcss.config.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\postcss.config.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\src\\js\\aos.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\src\\js\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\src\\js\\helpers\\calculateOffset.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\src\\js\\helpers\\calculateOffset.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\src\\js\\helpers\\detector.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\src\\js\\helpers\\detector.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\src\\js\\helpers\\elements.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\src\\js\\helpers\\elements.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\src\\js\\helpers\\handleScroll.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\src\\js\\helpers\\handleScroll.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\src\\js\\helpers\\prepare.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\src\\js\\helpers\\prepare.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\src\\js\\libs\\observer.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\src\\js\\libs\\observer.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\src\\js\\libs\\offset.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\src\\js\\libs\\offset.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\src\\sass\\_animations.scss",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\src\\sass\\_animations.scss"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\src\\sass\\_core.scss",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\src\\sass\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\src\\sass\\_easing.scss",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\src\\sass\\_easing.scss"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\src\\sass\\aos.scss",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\src\\sass\\aos.scss"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\test\\aos.spec.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\test\\aos.spec.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\test\\calculateOffset.spec.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\test\\calculateOffset.spec.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\test\\elements.spec.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\test\\elements.spec.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\test\\fixtures\\aos-offset.fixture.html",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\test\\fixtures\\aos-offset.fixture.html"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\test\\fixtures\\aos.fixture.html",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\test\\fixtures\\aos.fixture.html"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\test\\index.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\test\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\webpack.config.js",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\webpack.config.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\aos-master\\yarn.lock",
+      "PackagePath": "staticwebassets\\lib\\aos-master\\yarn.lock"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\brand\\bootstrap-logo-white.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\brand\\bootstrap-logo-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\brand\\bootstrap-logo.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\brand\\bootstrap-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\USUARIO\\source\\repos\\InteliWeb2.0\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.InteliWeb2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.InteliWeb2.props",
+      "PackagePath": "build\\InteliWeb2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.InteliWeb2.props",
+      "PackagePath": "buildMultiTargeting\\InteliWeb2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.InteliWeb2.props",
+      "PackagePath": "buildTransitive\\InteliWeb2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
